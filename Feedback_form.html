@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback_form</title>
+</head>
+<body>
+    <div class="heading">
+        <img src="https://www.designyourway.net/blog/wp-content/uploads/2024/04/the-meaning-behind-the-oxford-university-logo.jpg">
+        <h1>University of Oxford</h1>
+    </div>
+    <div class="Menu">
+        <div><a href="home.html" class="home"><i class="fa-solid fa-house home" ></i>Home</a> </div>       
+        <div><a href="Programmewise_student_list.html">Programmewise_student_list</a></div>
+        <div><a href="Student_Registration_Form.html">Student_Registration_Form</a></div>
+        <div><a href="Feedback_form.html">Feedback_form</a></div>  
+    </div>
+    <div class="content">
+        <h2>Feedback Form</h2>
+        <p>Your feedback is valuable to us! Please let us know your thoughts and suggestions to improve the website and your experience.</p>
+        <form id="feedbackForm">
+            <label for="feedbackName">Name of the Student:</label><br>
+            <input type="text" id="feedbackName" name="feedbackName" placeholder="Enter your name"><br><br>
+    
+            <label for="feedback">Your Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="6" cols="50" placeholder="Write your feedback here..."></textarea><br><br>
+    
+            <button type="button" onclick="validateFeedback()">Submit</button>
+        </form>
+    </div> 
+    <script src="app.js"></script>    
+</body>
+</html>

@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    width: 100wh;
+    background-color:antiquewhite;
+}
+.heading{
+    margin: 3px;
+    display: flex;
+    border: 2px solid black;
+    background-color: rgb(23, 37, 84);
+}
+img{
+    height: 10rem;
+    width: 18rem;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.heading h1{
+    font-size: 50px;
+    margin-left: 17rem;
+    flex-direction: column-reverse;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif ;
+    color:white;
+}
+.Menu{
+    margin:3px;
+    border: 2px solid black;
+    font-size: 20px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.Menu div a{
+    text-decoration: none;
+    color: rgb(52, 52, 160);
+    font-weight: 700;
+}
+.content{
+    border:2px solid black;
+    margin: 10px 3px 0 3px;
+    padding:0.5rem 1rem;
+}

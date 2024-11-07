@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student_Registration_Form</title>
+</head>
+<body>
+    <div class="heading">
+        <img src="https://www.designyourway.net/blog/wp-content/uploads/2024/04/the-meaning-behind-the-oxford-university-logo.jpg">
+        <h1>University of Oxford</h1>
+    </div>
+    <div class="Menu">
+        <div><a href="home.html" class="home"><i class="fa-solid fa-house home" ></i>Home</a> </div>       
+        <div><a href="Programmewise_student_list.html">Programmewise_student_list</a></div>
+        <div><a href="Student_Registration_Form.html">Student_Registration_Form</a></div>
+        <div><a href="Feedback_form.html">Feedback_form</a></div>  
+    </div>
+    <div class="content">
+        <h2>Student Registration</h2>
+        <p>Complete the form below to confirm your registration for the selected programme.</p>
+        <form id="registrationForm">
+            <label for="name">Name of the Student:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your full name"><br><br>
+    
+            <label for="programme">Programme:</label><br>
+            <select id="programme" name="programme">
+                <option value="">--Select Programme--</option>
+                <option value="BCA">Bachelor of Computer Applications (BCA)</option>
+                <option value="B.Sc">Bachelor of Science (B.Sc)</option>
+                <option value="MBA">Master of Business Administration (MBA)</option>
+                <option value="MCA">Master of Computer Applications</option>
+                <option value="B.A.">Bachelor of Arts</option>
+            </select><br><br>
+    
+            <label for="serialNumber">Serial Number in the List:</label><br>
+            <input type="text" id="serialNumber" name="serialNumber" placeholder="Enter your serial number"><br><br>
+    
+            <button type="button" onclick="validateRegistration()">Submit</button>
+        </form>
+    </div>
+    <script src="app.js"></script> 
+</body>
+</html>
