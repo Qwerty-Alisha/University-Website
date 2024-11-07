@@ -1,9 +1,9 @@
 const studentData = [
-    { programme: "BCA", students: ["Aarav Sharma", "Ananya Singh", "Rohit Kumar", "Priya Deshmukh", "Ravi Patil"] },
-    { programme: "B.Sc.", students: ["Meera Iyer", "Aditya Nair", "Kavya Rajan", "Suraj Yadav", "Ritu Pandey"] },
+    { programme: "BCA", students: ["Alisha Khatoon","Aysha","Aarav Sharma", "Ananya Singh", "Rohit Kumar", "Priya Deshmukh", "Ravi Patil","Mohd.Sakib"] },
+    { programme: "B.Sc.", students: ["Meera Iyer", "Aditya Nair", "Kavya Rajan", "Suraj Yadav", "Ritu Pandey","Iqra Hussain","Rekha Choudhary","Jay"] },
     { programme: "B.A.", students: ["Arjun Gupta", "Sneha Choudhary", "Harsh Jain", "Nandini Joshi", "Vivek Chauhan"] },
     { programme: "MCA", students: ["Siddharth Menon", "Shreya Das", "Vikram Reddy", "Aditi Kapoor", "Anil Sharma"] },
-    { programme: "MBA", students: ["Neha Malhotra", "Varun Mehta", "Divya Saxena", "Rahul Bhardwaj", "Payal Aggarwal"] },
+    { programme: "MBA", students: ["Sophia","Neha Malhotra", "Varun Mehta", "Divya Saxena", "Rahul Bhardwaj", "Payal Aggarwal","Nisha","Orhan"] },
 ];
 function validateRegistration() {
     const name = document.getElementById("name").value.trim();
